@@ -35,6 +35,14 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Slack Bot
 gem 'slack-ruby-bot'
 
+# HAML
+gem 'haml-rails'
+
+# React
+gem 'react-rails'
+gem 'sprockets-coffee-react'
+gem 'js-routes'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'

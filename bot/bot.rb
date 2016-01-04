@@ -1,4 +1,4 @@
-class Say < SlackRubyBot::Commands::Base
+class Bot < SlackRubyBot::Bot
   @id = 0
 
   def self.next_id

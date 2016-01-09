@@ -7,6 +7,6 @@ class Bot < SlackRubyBot::Bot
 
   command 'say' do |client, data, match|
     Rails.cache.write next_id, { text: match['expression'] }
-    send_message client, data.channel, match['expression']
+    client.say(channel: data.channel, text: match['expression'])
   end
 end

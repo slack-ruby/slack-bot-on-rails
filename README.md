@@ -1,6 +1,8 @@
 Slack-Bot-On-Rails
 ==================
 
+[![Build Status](https://travis-ci.org/slack-ruby/slack-bot-on-rails.svg?branch=master)](https://travis-ci.org/slack-ruby/slack-bot-on-rails)
+
 ### What's this?
 
 A slack bot that responds to `say`, running on Rails with a React front-end that displays messages.

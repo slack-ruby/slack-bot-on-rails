@@ -5,8 +5,8 @@
   "keywords": ["slack", "rails", "bot"],
   "env": {
     "SLACK_API_TOKEN": {
-      description: "You Slack API token",
-      value: "UPDATE_WITH_YOUR_TOKEN"
+      "description": "You Slack API token",
+      "value": "UPDATE_WITH_YOUR_TOKEN"
     }
   }
 }

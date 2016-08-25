@@ -1,0 +1,11 @@
+{
+  "name": "Slack-Bot-On-Rails",
+  "description": "A slack bot that responds to `say`, running on Rails with a React front-end. Update SLACK_API_TOKEN with your token value",
+  "repository": "https://github.com/slack-ruby/slack-bot-on-rails",
+  "keywords": ["slack", "rails", "bot"],
+  "env": {
+    "SLACK_API_TOKEN": {
+      "description": "You Slack API token"
+    }
+  }
+}

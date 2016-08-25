@@ -22,6 +22,12 @@ Invite the bot to a channel, then ask it to `say hi`.
 
 ![](tattletale.gif)
 
+### Deploy to Heroku
+
+Hit the button below and update the `SLACK_API_TOKEN` config variable with your [token](http://slack.com/services/new/bot)
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dblock/slack-bot-on-rails)
+
 ### Implementation Details
 
 1. A vanilla Rails app created via `rails new slack-bot-on-rails --skip-activerecord -T`, in [@d092f4ed](https://github.com/dblock/slack-bot-on-rails/commit/d092f4ed7f16aee27cdfde837a3a420df182f81a).

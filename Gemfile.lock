@@ -121,7 +121,7 @@ GEM
     minitest (5.13.0)
     multi_json (1.11.2)
     multipart-post (2.0.0)
-    nokogiri (1.10.5)
+    nokogiri (1.10.8)
       mini_portile2 (~> 2.4.0)
     oj (2.14.3)
     pg (0.18.4)
